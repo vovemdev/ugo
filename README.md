@@ -5,7 +5,7 @@
  
  # Installation
 
- `npm i ugo --save`
+ `npm i @vovemdev/ugo --save`
  
  How to use Ugo
 
