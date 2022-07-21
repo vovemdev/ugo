@@ -47,3 +47,10 @@ log(`The Division result is: ${valueDiv}`);
 * * Aubtraction
 * * Multiplication
 * * Division
+
+
+## NPM Package
+
+```
+https://www.npmjs.com/package/vovem-ugo
+```
