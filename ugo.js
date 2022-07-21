@@ -41,4 +41,4 @@ function ugo (){
         return resultArr;
     };
 
-module.exports.ugo = ugo;
+    export default ugo;
