@@ -10,7 +10,7 @@
  How to use Ugo
 
 ```
-import Ugo  from "ugo"
+import Ugo from 'vovem-ugo'
 
 let log = console.log;
 
