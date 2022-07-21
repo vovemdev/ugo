@@ -1,0 +1,35 @@
+{
+  "name": "ugo",
+  "version": "1.0.0",
+  "description": "Ugo is mathematics",
+  "main": "ugo.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vovem/ugo.git"
+  },
+  "files":[
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "rollup src/index.js -c -o dist/index.js -f iife",
+    "js": "rollup --config",
+    "build":"rm -rf dist && rollup --config"
+  },
+  "keywords": [
+    "javascript",
+    "ugo",
+    "utilities",
+    "mathematics"
+  ],
+  "author": "VovemDev",
+  "license": "MIT",
+  "bugs":{
+    "url":"https://github.com/vovem/ugo/issues"
+  },
+  "homepage":"https://github.com/vovem/ugo#readme"
+}
