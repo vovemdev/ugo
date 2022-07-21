@@ -2,7 +2,7 @@
 // Function with prototype
 // Mathematical calculation
 
-// Ugo with can mean 'heart', 'mind' or 'spirit'
+// Ugo which can mean 'heart', 'mind' or 'spirit'
 
 // Constructor function
 function ugo (){ 
