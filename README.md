@@ -17,8 +17,8 @@ let log = console.log;
 const obj = new  Ugo();
 
 // addition
-const intValue = [1, 2, 3, [4, 5, [6, 7], 8, 9]]; // [1,2,3,4,5,6,7,8,9]
-obj.add(obj.flatten(intValue));
+const intValue = [1, 2, 3, [4, 5, [6, 7], 8, 9]]; 
+obj.add(obj.flatten(intValue)); // [1,2,3,4,5,6,7,8,9]
 
 //or
 // obj.add([2,5,1]) // 8
