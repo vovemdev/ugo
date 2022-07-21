@@ -21,7 +21,7 @@ const intValue = [1, 2, 3, [4, 5, [6, 7], 8, 9]]; // [1,2,3,4,5,6,7,8,9]
 obj.add(obj.flatten(intValue));
 
 //or
-// obj.Add([2,5,1]) // 8
+// obj.add([2,5,1]) // 8
 
 // sum the integer values
 log(`The addition result is: ${obj.sum}`);
