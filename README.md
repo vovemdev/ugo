@@ -25,7 +25,7 @@ obj.add(obj.flatten(intValue)); // [1,2,3,4,5,6,7,8,9]
 
 // sum the integer values
 log(`The addition result is: ${obj.sum}`);
-log(`The lenght value is: ${obj.lenght}`);
+log(`The length value is: ${obj.length}`);
 
 // Subtraction
 const valueSub = obj.subtract(obj.sum,2);
