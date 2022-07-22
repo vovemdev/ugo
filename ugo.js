@@ -13,7 +13,8 @@ function ugo (){
     ugo.prototype.add = function (obj) {
     obj.forEach(function count(e){
         this.sum += e;
-        ++this.lenght;
+        ++this.length;
+
     },this);
     };
      // Subtraction values of integer
