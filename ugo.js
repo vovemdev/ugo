@@ -7,7 +7,7 @@
 // Constructor function
 function ugo (){ 
     this.sum = 0;
-    this.lenght = 0;
+    this.length = 0;
     }
     // Addition values of integer
     ugo.prototype.add = function (obj) {
