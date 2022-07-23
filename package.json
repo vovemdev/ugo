@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/vovem/ugo/issues"
   },
-  "homepage": "https://github.com/vovem/ugo#readme"
+  "homepage": "https://github.com/vovem/ugo#readme",
+  "devDependencies": {
+    "rollup": "^2.77.0"
+  }
 }

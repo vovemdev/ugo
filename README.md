@@ -9,6 +9,8 @@
  
  How to use Ugo
 
+ ## index.js
+
 ```
 import Ugo from './node_modules/vovem-ugo/dist/ugo.es.js'
 
@@ -39,6 +41,24 @@ log(`The Multiplication result is: ${valueMul}`);
 const valueDiv = obj.divide(obj.sum,2);
 log(`The Division result is: ${valueDiv}`);
 
+```
+
+## index.html
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugo Library</title>
+</head>
+<body>
+    <p>Test the mathematics library</p>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
 ```
 
 ## Options
