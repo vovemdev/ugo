@@ -5,12 +5,12 @@
 // Ugo which can mean 'heart', 'mind' or 'spirit'
 
 // Constructor function
-function ugo (){ 
+function Ugo (){ 
     this.sum = 0;
     this.length = 0;
     }
     // Addition values of integer
-    ugo.prototype.add = function (obj) {
+    Ugo.prototype.add = function (obj) {
     obj.forEach(function count(e){
         this.sum += e;
         ++this.length;
@@ -18,19 +18,19 @@ function ugo (){
     },this);
     };
      // Subtraction values of integer
-     ugo.prototype.subtract = function (a, b) {
+     Ugo.prototype.subtract = function (a, b) {
     return a-b;
     } 
     // Multiplication values of integer
-    ugo.prototype.multiple = function (a, b) {
+    Ugo.prototype.multiple = function (a, b) {
     return a*b;
      } 
     // Division values of integer
-    ugo.prototype.divide = function (a, b) {
+    Ugo.prototype.divide = function (a, b) {
     return a/b;
     }
     // Flatten
-    ugo.prototype.flatten = function flat (obj) {
+    Ugo.prototype.flatten = function flat (obj) {
         const resultArr = [];
         obj.forEach((e) => {
             if(Array.isArray(e)){
