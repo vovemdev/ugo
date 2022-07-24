@@ -42,4 +42,4 @@ function Ugo (){
         return resultArr;
     };
 
-    export default ugo;
+    export default Ugo;
