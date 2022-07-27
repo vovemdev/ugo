@@ -122,8 +122,8 @@ log(`The Modulo of 3 % 2 is : ${obj.modulo(3,2)}`) // 1
 - - Division
 - - Modulus
 - - Flatten
-- - Even unmber in array
-- - Odd unmber in array
+- - Even number in array
+- - Odd number in array
 - - Exponential
 - - Power
 
