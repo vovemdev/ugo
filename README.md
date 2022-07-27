@@ -78,12 +78,54 @@ log(`The Division result is: ${valueDiv}`);
 
 ```
 
+## CommonJS
+
+```
+const Pkg  = require('./node_modules/vovem-ugo/dist/ugo.cjs.js');
+const log = console.log;
+
+const  obj = new Pkg();
+
+// array
+const intValue = [1, 2, 3, [4, 5, [6, 7], 8, 9]];
+
+// sum the integer values
+obj.add(obj.flatten(intValue)); // [1,2,3,4,5,6,7,8,9]
+log(`The addition result is: ${obj.sum}`);
+log(`The length value is: ${obj.length}`);
+
+// Even number in array
+const isEvenNnmber = obj.flatten(intValue);
+const resultEv = obj.evenArray(isEvenNnmber);
+log(` The even number are : ${resultEv}`);
+
+// Odd number in array
+const isOddNnmber = obj.flatten(intValue);
+const resultOd = obj.oddArray(isOddNnmber);
+log(` The odd number are : ${resultOd}`);
+
+// Exponential
+log(`The exponential of 2,2 is : ${obj.exponent(2,4)}`);  // 16
+
+// Power
+log(`The Power of 5^3 is : ${obj.power(5,3)}`) // 125
+
+// Modulo (Modulus)
+log(`The Modulo of 3 % 2 is : ${obj.modulo(3,2)}`) // 1
+```
+
 ## Options
 
 - - Additon
 - - Aubtraction
 - - Multiplication
 - - Division
+- - Modulus
+- - Flatten
+- - Even number in array
+- - Odd number in array
+- - Exponential
+- - Power
 
 ## NPM Package
 
