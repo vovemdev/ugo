@@ -1,10 +1,10 @@
 # What is this ?
 
-Get perfect mathematics
+A Library to take care of all your mathematics needs
 
 ## Ugo Library
 
-For compile the library
+Ugo helps you to handle all your mathematics functionality
 
 ```
 npm install rollup --save
