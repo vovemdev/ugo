@@ -105,7 +105,7 @@ const resultOd = obj.oddArray(isOddNnmber);
 log(` The odd number are : ${resultOd}`);
 
 // Exponential
-log(`The exponential of 2,2 is : ${obj.exponent(2,4)}`);  // 16
+log(`The exponential of 2,4 is : ${obj.exponent(2,4)}`);  // 16
 
 // Power
 log(`The Power of 5^3 is : ${obj.power(5,3)}`) // 125
