@@ -19,15 +19,15 @@ function Ugo (){
     };
      // Subtraction values of integer
      Ugo.prototype.subtract = function (a, b) {
-    return a-b;
+       return [a, b].reduce((a, b) => a - b)
     }; 
     // Multiplication values of integer
     Ugo.prototype.multiple = function (a, b) {
-    return a*b;
+        return [a, b].reduce((a, b) => a * b)
      };
     // Division values of integer
     Ugo.prototype.divide = function (a, b) {
-    return a/b;
+        return [a, b].reduce((a, b) => a / b)
     };
     // modulus operation (remainder) values of integer
     Ugo.prototype.modulo = function (a, b){

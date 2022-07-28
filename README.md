@@ -7,7 +7,7 @@ A Library to take care of all your mathematics needs
 Ugo helps you to handle all your mathematics functionality
 
 ```
-npm install rollup --save
+npm i
 ```
 
 The command will generate three javaScript files,

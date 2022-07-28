@@ -6,3 +6,4 @@ node_modules
 dist/
 .module-cache
 .vscode
+._.git
