@@ -112,6 +112,18 @@ log(`The Power of 5^3 is : ${obj.power(5,3)}`) // 125
 
 // Modulo (Modulus)
 log(`The Modulo of 3 % 2 is : ${obj.modulo(3,2)}`) // 1
+
+// Mean array
+log(`The Mean numbers are : ${obj.meanArray([2,4,5,7,1,8,1])}`); // 4
+
+// Median array
+log(`The median numbers are : ${obj.medianArray([11,16,17,10,2,12,24])}`); // 12
+
+// Mode array
+log(`The mode numbers are : ${obj.modeArray([3,2,5,3,5,5])}`); // 5
+
+// // Range array
+log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
 ```
 
 ## Options
@@ -126,6 +138,10 @@ log(`The Modulo of 3 % 2 is : ${obj.modulo(3,2)}`) // 1
 - - Odd number in array
 - - Exponential
 - - Power
+- - Mean in array
+- - Median in array
+- - Mode in array
+- - Range in array
 
 ## NPM Package
 
