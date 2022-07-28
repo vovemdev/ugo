@@ -129,7 +129,7 @@ log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
 ## Options
 
 - - Additon
-- - Aubtraction
+- - Subtraction
 - - Multiplication
 - - Division
 - - Modulus
