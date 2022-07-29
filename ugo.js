@@ -21,7 +21,7 @@ function Ugo (){
        return [a, b].reduce((a, b) => a - b)
     }; 
     // Multiplication values of integer
-    Ugo.prototype.multiple = function (a, b) {
+    Ugo.prototype.multiply = function (a, b) {
         return [a, b].reduce((a, b) => a * b)
      };
     // Division values of integer
