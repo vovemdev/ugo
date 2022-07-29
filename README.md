@@ -1,6 +1,5 @@
 # What is this ?
-
-A Library to take care of all your mathematics needs
+Ugo is an advance mathematics library that will help you perform basic mathematical operations using Javascript. The library is super advanced and user friendly. Its application ranges from solving simple maths operations to applying mathematical concepts to solve problems relating to artificial intelligence. It is an open source ware which invites software developers to evaluate written codes and also add their input. With Ugo library you are assured of accuracy and efficiency.
 
 ## Ugo Library
 
