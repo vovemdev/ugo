@@ -1,27 +1,35 @@
-# What is this ?
-Ugo is an advance mathematics library that will help you perform basic mathematical operations using Javascript. The library is super advanced and user friendly. Its application ranges from solving simple maths operations to applying mathematical concepts to solve problems relating to artificial intelligence. It is an open source ware which invites software developers to evaluate written codes and also add their input. With Ugo library you are assured of accuracy and efficiency.
 
-## Ugo Library
+## Overview of Ugo
 
-Ugo helps you to handle all your mathematics functionality
+Ugo is an advanced mathematics library that will help you perform mathematical operations using Javascript and node-js. The library is super effective and user friendly. Enables the execution of  hitherto complex math operations and applies mathematical concepts to solve problems relating to artificial intelligence. It is an open source which invites software developers to evaluate written codes and also contribute opinions. With the Ugo library you are assured of accuracy and efficiency.
+ 
+## Features:
+
+- - Supports numbers
+- - Uses array of numbers
+- - Runs on Javascript 
+- - Open source
+
+## Installation
 
 ```
 npm i
 ```
-
-The command will generate three javaScript files,
-
 ```
 npm run js
 ```
+ 
+## Utility files  
 
 - - ugo.cjs.js : CommonJS
-
 - - ugo.es.js : ES6 Modules JavaScript
-
 - - ugo.iife.js : Immediately Invoked Function Expression
 
-How to use Ugo
+## Ugo Library
+
+Ugo enables multi-tasking with an easy workflow.
+
+## How to use Ugo
 
 ## index.js
 
@@ -148,7 +156,3 @@ log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
 https://www.npmjs.com/package/vovem-ugo
 
 ```
-
-# Installation
-
-`npm i vovem-ugo --save`
