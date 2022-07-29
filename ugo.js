@@ -14,7 +14,6 @@ function Ugo (){
     obj.forEach(function count(e){
         this.sum += e;
         ++this.length;
-
     },this);
     };
      // Subtraction values of integer
