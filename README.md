@@ -64,7 +64,7 @@ const valueSub = obj.subtract(obj.sum,2);
 log(`The subtraction result is: ${valueSub}`);
 
 // Multiplication
-const valueMul = obj.multiple(obj.sum,2);
+const valueMul = obj.multiply(obj.sum,2);
 log(`The Multiplication result is: ${valueMul}`);
 
 // Division
