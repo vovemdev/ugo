@@ -1,13 +1,19 @@
-
 ## Overview of Ugo
 
-Ugo is an advanced mathematics library that will help you perform mathematical operations using Javascript and node-js. The library is super effective and user friendly. Enables the execution of  hitherto complex math operations and applies mathematical concepts to solve problems relating to artificial intelligence. It is an open source which invites software developers to evaluate written codes and also contribute opinions. With the Ugo library you are assured of accuracy and efficiency.
- 
+Ugo is an advanced mathematics library that will help you perform mathematical operations using Javascript and node-js. The library is super effective and user friendly. Enables the execution of hitherto complex math operations and applies mathematical concepts to solve problems relating to artificial intelligence. It is an open source which invites software developers to evaluate written codes and also contribute opinions. With the Ugo library you are assured of accuracy and efficiency.
+
+## Why Ugo?
+
+Ugo makes JavaScript and Node.js easier by taking away the hassle of writing common maths operations. You can use it to perform tasks in these categories below:
+
 ## Features:
 
-- - Supports numbers
-- - Uses array of numbers
-- - Runs on Javascript 
+- - Support numbers
+- - Use array of numbers
+- - Fibonacci
+- - Complex numbers
+- - Exponentials
+- - Run on JavaScript
 - - Open source
 
 ## Installation
@@ -15,11 +21,12 @@ Ugo is an advanced mathematics library that will help you perform mathematical o
 ```
 npm i
 ```
+
 ```
 npm run js
 ```
- 
-## Utility files  
+
+## Utility files
 
 - - ugo.cjs.js : CommonJS
 - - ugo.es.js : ES6 Modules JavaScript
@@ -131,9 +138,34 @@ log(`The mode number is : ${obj.modeArray([3,2,5,3,5,5])}`); // 5
 
 // Range array
 log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
+// // Precision integer
+// log(`The Precision numbers is : ${obj.procise(456.789,4)}`); // 8
+
+// // Contain a fibonacci number
+// const fibn = [4,6,9,10]; // yes [8,13,21,34]  no [4,6,9,10]
+// const l = fibn.length;
+// const out = 'Does it contain fibiacci numbers';
+// if(obj.isFibonacci(fibn, l)){
+//     log(`${out}: Yes`);
+// }else{
+//     log(`${out}: No`);
+// }
+
+// // Fibonacci generator
+// log(`Fibonacci numbers : ${obj.fibonacciGenerator(13)}`); // 0,1,1,2,3,5,8,...
+
+// // Array min
+// log(`The min number is : ${obj.arrayMin([2,3,4,5,6])}`); // 2
+
+// // Array max
+// log(`The max number is : ${obj.arrayMax([2,3,4,5,6])}`); // 6
+
+// // Array Avg
+// log(`The max number is : ${obj.arrayAvg([2,3,4,5,6])}`); // 4
+
 ```
 
-## Options
+## Categories
 
 - - Additon
 - - Subtraction
@@ -149,6 +181,12 @@ log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
 - - Median in array
 - - Mode in array
 - - Range in array
+- - Precision
+- - isFibonacci (check if contain)
+- - Fibonacci series generator
+- - arrayMin
+- - arrayMax
+- - arrayAvg
 
 ## NPM Package
 

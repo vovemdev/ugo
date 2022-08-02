@@ -11,7 +11,7 @@ function Ugo (){
     };
     // Addition values of integer
     Ugo.prototype.add = function (obj) {
-    obj.forEach(function count(e){
+    obj.forEach((e) => {
         this.sum += e;
         ++this.length;
     },this);
@@ -114,6 +114,49 @@ function Ugo (){
         Ugo.prototype.rangeArray = function (n){
             n.sort((c, d) => c - d);
             return [n[0], n[n.length - 1]];
+        };
+        // To Precision integer
+        Ugo.prototype.procise = function (n, p){
+            return n.toPrecision(p);
+        };
+        // Contain fibonacci series
+        // [0..n] it can form a fibonacci series
+        Ugo.prototype.isFibonacci = function (ar, n) {
+            if(n == 1 || n == 2){
+                return true;
+            }
+            ar.sort((b, c) => b - c);
+            for(let i = 2; i < n; i++){
+                if((ar[i -1] + ar[i -2]) != ar[i]){
+                    return false;
+                }
+            }
+            return true;
+        };
+        // Fibonacci series generator
+        // F(n) = F(n-1) + F(n-2)
+        Ugo.prototype.fibonacciGenerator = function (n) {
+            const arr = new Array(n).fill(1).reduce((f,_,i) => {
+                f.push((i <= 1) ? i : f[i-2] + f[i-1]);
+                return f;
+            }, []);
+            return arr;
+        };
+        // Array min
+        Ugo.prototype.arrayMin = function (n) {
+            return n.reduce((p, c) => {
+                return (p < c ? p : c);
+            })
+        };
+        // Array Max
+        Ugo.prototype.arrayMax = function (n) {
+            return n.reduce((p, c) => {
+                return (p > c ? p : c);
+            })
+        };
+        // Array Avg
+        Ugo.prototype.arrayAvg = function (n) {
+            return n.reduce((p, c) => p + c, 0) / n.length;
         };
 
     export default Ugo;
