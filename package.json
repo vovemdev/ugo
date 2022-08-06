@@ -1,8 +1,9 @@
 {
   "name": "vovem-ugo",
-  "version": "1.2.1",
+  "version": "2.3.1",
   "description": "Ugo is mathematics an open-source library for JavaScript and Node.js",
-  "main": "ugo.js",
+  "main": "index.js",
+  "type": "commonjs",
   "sideEffects": false,
   "repository": {
     "type": "git",
@@ -16,12 +17,13 @@
     "README.md"
   ],
   "scripts": {
-    "dev": "rollup src/index.js -c -o dist/index.js -f iife",
+    "dev": "rollup index.js -c -o index.js -f cjs",
     "js": "rollup --config",
     "build": "rm -rf dist && rollup --config"
   },
   "keywords": [
     "javascript",
+    "commonjs",
     "ugo",
     "utilities",
     "mathematics"

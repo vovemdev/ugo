@@ -4,14 +4,14 @@ import pkg from './package.json';
 let banner = `/*! ${pkg.name} v${pkg.version} | ${pkg.description} | Copyright ${new Date().getFullYear()} | ${pkg.author} | ${pkg.license} license */`;
 
 // The formats to output
-let formats = ['iife', 'es', 'cjs'];
+let formats = ['cjs'];
 
 // The files to compile with rollup.js
 export default formats.map(function (format) {
 	return {
-		input: 'ugo.js',
+		input: 'index.js',
 		output: {
-			file: `dist/ugo.${format}.js`,
+			file: `index.${format}.js`,
 			format: format,
 			name: 'Ugo',
 			banner: banner,

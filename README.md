@@ -1,6 +1,6 @@
 ## Overview of Ugo
 
-Ugo is an advanced mathematics library that will help you perform mathematical operations using Javascript and node-js. The library is super effective and user friendly. Enables the execution of hitherto complex math operations and applies mathematical concepts to solve problems relating to artificial intelligence. It is an open source which invites software developers to evaluate written codes and also contribute opinions. With the Ugo library you are assured of accuracy and efficiency.
+Ugo is an advanced mathematics library that will help you perform mathematical operations using Javascript and node.js. The library is super effective and user friendly. Enables the execution of hitherto complex math operations and applies mathematical concepts to solve problems relating to artificial intelligence. It is an open source which invites software developers to evaluate written codes and also contribute opinions. With the Ugo library you are assured of accuracy and efficiency.
 
 ## Why Ugo?
 
@@ -28,9 +28,8 @@ npm run js
 
 ## Utility files
 
-- - ugo.cjs.js : CommonJS
-- - ugo.es.js : ES6 Modules JavaScript
-- - ugo.iife.js : Immediately Invoked Function Expression
+- - ugo.js : CommonJS
+- - ugo.js : ES6 Modules JavaScript
 
 ## Ugo Library
 
@@ -38,24 +37,23 @@ Ugo enables multi-tasking with an easy workflow.
 
 ## How to use Ugo
 
-## index.js
+## CommonJS
 
 ```
-// import Ugo from './node_modules/vovem-ugo/dist/ugo.es.js' // npm
-import Ugo from './dist/ugo.es.js' // local
+const Ugo  = require('vovem-ugo');
 
-let log = console.log;
+const log = console.log;
 
-const obj = new  Ugo();
+const  obj = new Ugo();
 
-// addition
+// array
 const intValue = [1, 2, 3, [4, 5, [6, 7], 8, 9]];
-obj.add(obj.flatten(intValue)); // [1,2,3,4,5,6,7,8,9]
 
 //or
 // obj.add([2,5,1]) // 8
 
 // sum the integer values
+obj.add(obj.flatten(intValue)); // [1,2,3,4,5,6,7,8,9]
 log(`The addition result is: ${obj.sum}`);
 log(`The length value is: ${obj.length}`);
 
@@ -70,43 +68,6 @@ log(`The Multiplication result is: ${valueMul}`);
 // Division
 const valueDiv = obj.divide(obj.sum,2);
 log(`The Division result is: ${valueDiv}`);
-
-```
-
-## index.html
-
-```
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Ugo Library</title>
-	</head>
-	<body>
-		<p>Test ugo library with browser console.</p>
-		<script src="./index.js" type="module"></script>
-	</body>
-</html>
-
-```
-
-## CommonJS
-
-```
-const Pkg  = require('./node_modules/vovem-ugo/dist/ugo.cjs.js');
-const log = console.log;
-
-const  obj = new Pkg();
-
-// array
-const intValue = [1, 2, 3, [4, 5, [6, 7], 8, 9]];
-
-// sum the integer values
-obj.add(obj.flatten(intValue)); // [1,2,3,4,5,6,7,8,9]
-log(`The addition result is: ${obj.sum}`);
-log(`The length value is: ${obj.length}`);
 
 // Even number in array
 const isEvenNnmber = obj.flatten(intValue);
@@ -138,6 +99,7 @@ log(`The mode number is : ${obj.modeArray([3,2,5,3,5,5])}`); // 5
 
 // Range array
 log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
+
 // // Precision integer
 // log(`The Precision numbers is : ${obj.procise(456.789,4)}`); // 8
 
@@ -165,7 +127,7 @@ log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
 
 ```
 
-## Categories
+## Options (JS)
 
 - - Additon
 - - Subtraction
@@ -188,9 +150,16 @@ log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
 - - arrayMax
 - - arrayAvg
 
-## NPM Package
+## NPM Package CommonJS
 
 ```
 https://www.npmjs.com/package/vovem-ugo
+
+```
+
+## NPM Package ES Modules
+
+```
+https://www.npmjs.com/package/ugo-es
 
 ```

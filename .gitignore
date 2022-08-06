@@ -4,6 +4,7 @@ node_modules
 *.pyc
 .grunt
 dist/
+._shared
 .module-cache
 .vscode
 ._.git
