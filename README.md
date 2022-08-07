@@ -1,5 +1,3 @@
-![ugo](https://user-images.githubusercontent.com/24244287/183292244-f916a624-2b92-4eb6-aad2-0cc46d53e072.jpg)
-
 ## Overview of Ugo
 
 Ugo is an advanced mathematics library that will help you perform mathematical operations using Javascript and node.js. The library is super effective and user friendly. Enables the execution of hitherto complex math operations and applies mathematical concepts to solve problems relating to artificial intelligence. It is an open source which invites software developers to evaluate written codes and also contribute opinions. With the Ugo library you are assured of accuracy and efficiency.
