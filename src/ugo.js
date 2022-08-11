@@ -1,5 +1,5 @@
-/*! 
-vovem-ugo v2.3.1 | Ugo is mathematics an open-source library for JavaScript commonJS 
+/* 
+vovem-ugo v2.4.1 | Ugo is mathematics an open-source library for JavaScript commonJS 
 Copyright 8/6/2022, 21:10:13 PM | VovemDev | MIT license 
 */
 
@@ -35,6 +35,7 @@ function ugo (){
     ugo.prototype.arrayMin = core.arrayMin;
     ugo.prototype.arrayMax = core.arrayMax;
     ugo.prototype.arrayAvg = core.arrayAvg;
+    ugo.prototype.factorial = core.factorial;
 
     return ugo;
 }.call(this));
