@@ -149,6 +149,7 @@ log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
 - - arrayMin
 - - arrayMax
 - - arrayAvg
+- - Factorial
 
 ## NPM Package CommonJS
 

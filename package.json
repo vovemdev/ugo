@@ -1,6 +1,6 @@
 {
   "name": "vovem-ugo",
-  "version": "2.3.1",
+  "version": "2.4.1",
   "description": "Ugo is mathematics an open-source library for JavaScript and Node.js",
   "main": "index.js",
   "type": "commonjs",

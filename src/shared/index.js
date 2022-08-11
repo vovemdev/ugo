@@ -1,5 +1,5 @@
-/*! 
-vovem-ugo v2.3.1 | Ugo is mathematics an open-source library for JavaScript commonJS 
+/*
+vovem-ugo v2.4.1 | Ugo is mathematics an open-source library for JavaScript commonJS 
 Copyright 8/6/2022, 21:10:13 PM | VovemDev | MIT license 
 */
 
@@ -16,13 +16,14 @@ const core =  {
     power: require('./power'),
     meanArray: require('./meanArray'),
     modeArray: require('./modeArray'),
-    rangArray: require('./rangeArray'), 
+    rangeArray: require('./rangeArray'), 
     procise: require('./procise'),
     isFibonacci: require('./isFibonacci'),
     fibonacciGenerator: require('./fibonacciGenerator'),
     arrayMin: require('./arrayMin'),
     arrayMax: require('./arrayMax'),
     arrayAvg: require('./arrayAvg'),
+    factorial: require('./factorial'),
 }
 
 module.exports = { core };
