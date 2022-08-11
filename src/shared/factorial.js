@@ -18,5 +18,5 @@ module.exports = function factorial (n) {
         return 1;
     }
     const a = [...Array(n+1).keys()].slice(1)
-    return a.reduce((p, c) => p * c,0);
+    return a.reduce((p, c) => p * c);
 }
