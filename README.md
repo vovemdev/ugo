@@ -125,6 +125,10 @@ log(`The Range numbers are : ${obj.rangeArray([3,5,6,8,2,9,2])}`); // 2,9
 // // Array Avg
 // log(`The max number is : ${obj.arrayAvg([2,3,4,5,6])}`); // 4
 
+// Factrial
+// const valueFac = obj.factorial(5);
+// log(`The factorial result is: ${valueFac}`); // 120
+
 ```
 
 ## Options (JS)
