@@ -16,14 +16,8 @@ Ugo makes JavaScript and Node.js easier by taking away the hassle of writing com
 - - Run on JavaScript
 - - Open source
 
-## Installation
-
 ```
-npm i
-```
-
-```
-npm run js
+npm i vovem-ugo
 ```
 
 ## Utility files
