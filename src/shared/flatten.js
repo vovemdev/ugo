@@ -3,10 +3,12 @@ vovem-ugo v2.4.1 | Ugo is mathematics an open-source library for JavaScript comm
 Copyright 8/6/2022, 21:10:13 PM | VovemDev | MIT license 
 */
 
+require('../utils/base-each');
+
 // Flatten arrays
-module.exports = function flatten (obj) {
+module.exports =  function flatten (obj) {
     const resultArr = [];
-    obj.forEach((e) => {
+    obj.baseEach((e) => {
         if(Array.isArray(e)){
             resultArr.push(...flatten(e));
         }else{
