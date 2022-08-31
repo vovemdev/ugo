@@ -28,7 +28,7 @@ function ugo (){
     ugo.prototype.power = core.power;
     ugo.prototype.medianArray = core.meanArray;
     ugo.prototype.modeArray = core.modeArray;
-    ugo.prototype.rangArray = core.rangArray;
+    ugo.prototype.rangArray = core.rangeArray;
     ugo.prototype.procise = core.procise;
     ugo.prototype.isFibonacci = core.isFibonacci;
     ugo.prototype.fibonacciGenerator = core.fibonacciGenerator;

@@ -6,6 +6,4 @@ Copyright 8/6/2022, 21:10:13 PM | VovemDev | MIT license
 const arithmetic = require('../utils/arithmetic');
 
 // Multiplication values of integer
-module.exports = function multiply (a, b) {
-    return [a, b].arithmetic((a, b) => a * b, 0)
- };
+module.exports = multiply = arithmetic((a, b) => a * b, 0);

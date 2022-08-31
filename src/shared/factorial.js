@@ -3,7 +3,7 @@ vovem-ugo v2.4.1 | Ugo is mathematics an open-source library for JavaScript comm
 Copyright 8/6/2022, 21:10:13 PM | VovemDev | MIT license 
 */
 
-// const arithmetic = require('../utils/arithmetic');
+require('../utils/base-reduce');
 
 // Factorial
 // (n)=n*(n-1)*...* 1
@@ -18,5 +18,5 @@ module.exports = function factorial (n) {
         return 1;
     }
     const a = [...Array(n+1).keys()].slice(1)
-    return a.reduce((p, c) => p * c);
-}
+    return a.baseReduce((p, c) => p * c);
+};

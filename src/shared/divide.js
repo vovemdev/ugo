@@ -6,6 +6,4 @@ Copyright 8/6/2022, 21:10:13 PM | VovemDev | MIT license
 const arithmetic = require('../utils/arithmetic');
 
 // Division values of integer
-module.exports = function divide (a, b) {
-        return [a, b].arithmetic((a, b) => a / b,0)
-    };
+module.exports = divide = arithmetic((a, b) => a / b, 0);

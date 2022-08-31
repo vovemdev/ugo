@@ -1,12 +1,9 @@
 # ugo changelog
 
-## 1.0.0
+## v2.4.1
 
 ### Features
 
-
 ### Bug Fixes
-
-
 
 ### Pull Requests

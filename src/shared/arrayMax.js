@@ -3,11 +3,11 @@ vovem-ugo v2.4.1 | Ugo is mathematics an open-source library for JavaScript comm
 Copyright 8/6/2022, 21:10:13 PM | VovemDev | MIT license 
 */
 
-const arithmetic = require('../utils/arithmetic');
+require('../utils/base-reduce');
 
 // Array Max
 module.exports = function arrayMax (n) {
-    return n.arithmetic((p, c) => {
+    return n.baseReduce((p, c) => {
         return (p > c ? p : c);
     })
 };
